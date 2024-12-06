@@ -1,0 +1,73 @@
+{
+    "data":{
+        "header":[
+            {
+                "title":"Compare plans",
+                "badge":"60% off",
+                "description":"Choose your workspace plan according to your organisational plan",
+                "type":"title"
+            },
+            {
+                "title":"Free",
+                "sub_title":"/lifetime",
+                "action":"Create free account",
+                "isFree":true,
+                "type":"free"
+            },
+            {
+                "title":"₹ 849",
+                "sub_title":"/month",
+                "action":"Login to Buy",
+                "isFree":false,
+                "type":"monthly"
+            },
+            {
+                "title":"₹ 4310",
+                "sub_title":"/year",
+                "action":"Login to Buy",
+                "isFree":false,
+                "type":"annual"
+            }
+        ],
+        "body":[
+        {
+            "title":"Number Of People",
+            "free":1,
+            "monthly":3,
+            "annual":1
+        },
+        {
+            "title":"Users Per Page",
+            "free":"5 pages",
+            "monthly":"50 pages",
+            "annual":"unlimited",
+            "description":{
+                "annual":"Pages Add-ons on Demand"
+            }
+        },
+        {
+            "title":"Includes essential features to get started",
+            "free":true,
+            "monthly":true,
+            "annual":true
+        },
+        {
+            "title":"More advanced features for increased productivity",
+            "free":false,
+            "monthly":true,
+            "annual":true
+        },
+        {
+            "title":"Designing & Development",
+            "free":false,
+            "monthly":true,
+            "annual":true
+        },
+        {
+            "title":"Account Management",
+            "free":true,
+            "monthly":true,
+            "annual":true
+        }
+    ]}
+}

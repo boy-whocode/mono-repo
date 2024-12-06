@@ -1,0 +1,25 @@
+{
+ "data":[
+    {
+        "title":"Advanced Option Chain",
+        "description":"Stay ahead with highlighted data on Greeks, PCR, Vol PCR, and Expected Range for the Day feature for confdent target setting",
+        "icon":"http://localhost:3002//assests/images/troubleshoot.svg"
+    },
+    {
+        "title":"Live Market Screener",
+        "description":"Access real-time market data and dynamic flters to ensure timely trades without outdated information.",
+        "icon":"http://localhost:3002//assests/images/query_stats.svg"
+    },
+    {
+        "title":"Options Screener",
+        "description":"Quickly identify optimal trading opportunities in the options market with our real-time data and advanced flters.",
+        "icon":"http://localhost:3002//assests/images/find_in_page.svg"
+    },
+    {
+        "title":"Advanced Option Chain",
+        "description":"Stay ahead with highlighted data on Greeks, PCR, Vol PCR, and Expected Range for the Day feature for confdent target setting",
+        "icon":"http://localhost:3002//assests/images/link.svg"
+    }
+
+ ]   
+}

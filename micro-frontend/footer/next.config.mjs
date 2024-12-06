@@ -8,11 +8,10 @@ const nextConfig = {
         filename: "static/chunks/remoteEntry.js",
         exposes: {
           "./Footer": "./src/pages/index.tsx",
+          "./FooterComp": "./src/components/Footer",
+
         },
-        shared: {
-          react: { singleton: true, eager: true, requiredVersion: false },
-          "react-dom": { singleton: true, eager: true, requiredVersion: false },
-        },
+        shared: {},
       })
     );
     return config;

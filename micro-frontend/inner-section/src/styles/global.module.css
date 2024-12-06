@@ -1,0 +1,208 @@
+/* button styling start */
+.btn{
+    @apply bg-[#13A8D7] text-white py-2 lg:py-4 px-3 lg:px-8 text-xs md:text-base lg:text-xl rounded border border-[#13A8D7] ease-linear duration-100 text-center
+}
+.btn__title{
+    @apply flex w-full items-center justify-between gap-2 text-center
+}
+.btn__title h1{
+    @apply flex-1
+}
+.btn:hover{
+    @apply text-[#13A8D7] bg-transparent
+}
+.btn--bold{
+    @apply bg-[#13A8D7] text-white md:px-8 py-2 md:py-4 font-bold text-sm md:text-lg lg:text-2xl rounded border-[#13A8D7]
+}
+.btn--primary{
+    @apply bg-[#236AD4] p-1 w-full lg:py-4 lg:p-7 rounded text-sm lg:text-base hover:border-[#236AD4] hover:text-[#236AD4]
+}
+.btn--outlined{
+    @apply bg-transparent text-black border-black
+}
+.btn--outlined:hover{
+    @apply bg-black text-white border-black
+}
+/* button styling end */
+
+/* badge styling start */
+.badge{
+    @apply rounded-2xl xl:rounded-3xl py-1.5 xl:py-2.5 px-2.5 xl:px-5 border border-[#999999] text-black text-xs xl:text-base min-w-max
+}
+/* badge styling end */
+
+/* Common styling start */
+.heading{
+    @apply font-bold text-xl lg:text-5xl text-center py-2
+}
+.contentWrapper{
+    @apply md:p-2 lg:p-4 lg:px-10
+}
+
+/* Common styling end */
+
+/* Carousel styling start */
+
+.carousel {
+    @apply relative w-full overflow-hidden;
+}
+
+.carousel__inner {
+    @apply flex ease-in-out duration-500;
+}
+
+.carousel__item {
+    @apply min-w-full box-border;
+}
+
+.carousel__image {
+    @apply w-full block;
+}
+
+/* Carousel styling end */
+
+/* banner styling start */
+.banner{
+    @apply h-[80vh] lg:h-[calc(60vh-10rem)] xl:h-[calc(100vh-10rem)] bg-gradient-to-r from-[#FFC7C7] from-10% to-[#0AA6D7] relative overflow-hidden lg:p-5 xl:p-10 text-center lg:text-left;
+}
+.banner__img{
+    @apply absolute -top-[20%] md:-top-[10%] lg:-top-[11%] -left-[20%] md:-left-[10%] lg:left-0 z-[1] w-3/4 md:w-1/3 lg:w-3/4 xl:w-1/2;
+}
+.bannerContainer{
+    @apply flex flex-col lg:flex-row h-full items-center text-white gap-2 z-[999] justify-center lg:justify-between
+}
+.bannerContainer__leftSection{
+    @apply flex-1 lg:flex-initial flex flex-col justify-center items-center lg:items-start px-4 lg:w-screen xl:w-[150%]
+}
+.bannerContainer__heading{
+    @apply font-bold text-xl md:text-4xl lg:text-6xl py-4
+}
+.bannerContainer__description{
+    @apply font-normal text-base md:text-xl lg:text-2xl pb-4 lg:w-2/3
+}
+.bannerContainer__videoSection{
+    @apply w-full lg:rounded-[40px] relative overflow-hidden self-end lg:self-center justify-self-end lg:justify-self-center z-10 lg:p-2;
+}
+.bannerContainer__videoPlayButton{
+    @apply absolute left-1/2 top-1/2 -translate-y-1/2  -translate-x-1/2 z-10
+}
+.bannerContainer__videoPlayButton button{
+    @apply text-center bg-[#ED93B7] rounded-full h-10 w-10 md:h-24 md:w-24 text-base md:text-2xl
+}
+.bannerContainer__videoContainer{}
+/* banner styling end */
+
+/* Insignt styling start */
+.insigntContainer{
+    @apply bg-[#E1E1E1] text-center px-6 py-12 text-black space-y-2
+}
+.insigntContainer__heading{
+    @apply font-bold text-xl md:text-2xl lg:text-5xl
+}
+.insigntContainer__description{
+    @apply text-xs md:text-base lg:text-2xl pb-4
+}
+/* Insignt styling end */
+
+/* Screener start */
+.screener{
+    @apply w-full;
+}
+/* Screener end */
+
+/* Option chain styling start */
+.optionChain{
+    @apply p-4 bg-[#F8FBFF] lg:py-10 overflow-y-hidden box-border
+}
+.optionChain::-webkit-scrollbar{
+    @apply w-0
+}
+.optionCardContainer{
+    @apply flex gap-4 lg:flex-wrap w-screen pb-2 box-border
+}
+/* option card start */
+.optionCard{
+    @apply bg-white rounded-[32px] px-3 lg:px-4 py-4 lg:py-6 text-[#333333] min-w-[70%] md:min-w-[48%] lg:min-w-[15%] lg:flex-1 cursor-pointer box-border;
+}
+.optionCard:hover{
+    @apply text-[#4399EB];
+    box-shadow: 0px 0px 15px 0px #00000026;
+}
+.optionCard__title{
+    @apply font-semibold text-sm lg:text-2xl
+}
+.optionCard__description{
+    @apply text-[10px] lg:text-base text-[#999999]
+}
+.optionCard:hover .optionCard__description{
+    @apply text-[#4399EB]
+}
+/* option card end */
+
+/* Option chain styling end */
+
+/* pricing plan styling start */
+.pricingTable {
+    @apply w-full table-fixed bg-white
+}
+
+table.pricingTable, .pricingTable td, .pricingTable tr {
+    @apply border border-collapse border-[#DDDDDD] p-1 md:p-3 xl:p-5
+}
+
+.pricingTable__row {
+    @apply space-y-2
+}
+
+.pricingTable__head {
+    @apply flex gap-2 items-center
+}
+.pricingTable__head h1{
+    @apply w-full text-center font-bold text-base lg:text-xl xl:text-4xl
+}
+.pricingTable__badge{
+    @apply hidden lg:block
+}
+
+.pricingTable__subtitle, .pricingTable__description {
+    @apply text-[#999999] text-[10px] md:text-sm font-normal px-0.5 block md:inline-block
+}
+.pricingData__body{
+    @apply text-xs md:text-lg
+}
+.pricingData__body td:not(:first-child){
+    @apply text-center
+}
+.pricingData__icon{
+    @apply w-max mx-auto
+}
+
+/* pricing plan styling end */
+
+/* faq styling start */
+.faq{
+    @apply py-2
+}
+.faqDropdown{
+    @apply w-full border-b border-[#333333] py-6 px-3 cursor-pointer
+}
+.faqContentWrapper{
+    @apply lg:p-4 px-4 lg:px-10 bg-white text-xs md:text-lg font-medium
+}
+.faqDropdown__title{
+    @apply flex w-full flex-wrap justify-between items-center
+}
+.faqDropdown__title h3{
+    @apply w-[90%]
+}
+.faq__content{
+    @apply ease-linear duration-300 max-h-0 overflow-hidden py-3
+}
+.faq__content--collapse{
+    @apply max-h-0 py-0;
+}
+.faq__content--expande{
+    @apply max-h-max;
+}
+
+/* faq styling end */

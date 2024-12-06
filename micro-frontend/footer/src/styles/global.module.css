@@ -1,0 +1,61 @@
+.btn{
+    @apply bg-[#4399EB] py-2 lg:py-4 px-3 lg:p-7 rounded text-base hover:border-[#4399EB] hover:text-[#4399EB] hover:bg-transparent
+}
+
+.footer{
+    @apply px-4 lg:px-10 py-6 lg:py-5 bg-black bg-opacity-50 bg-cover bg-no-repeat
+}
+.footer__logo{
+    @apply lg:hidden w-max mx-auto pb-2;
+}
+.footer__container{
+    @apply flex justify-between gap-4 items-start flex-wrap;
+}
+.footerMenu{
+    @apply text-white
+}
+.footerMenu__title{
+    @apply text-xl pb-2 font-bold
+}
+.footerItems{
+    @apply relative
+}
+.footerItems__title{
+    @apply flex items-center cursor-pointer w-full xl:w-max
+}
+.footerItems__options{
+    @apply px-4 list-disc py-2 max-h-max ease-in-out duration-150 text-sm lg:text-base;
+}
+.footerItems__options--collapse{
+    @apply max-h-0 overflow-hidden py-0
+}
+.footerMenu__desc{
+    @apply text-sm
+}
+.footerMenu__input{
+    @apply p-3 lg:py-4 lg:px-6 text-[#959595]
+}
+.footerMenu__fieldContainer{
+    @apply flex gap-2 box-border items-stretch py-2
+}
+.footer__helpfullLinks{
+    @apply order-3 lg:order-none w-[45%] lg:w-auto
+}
+.footer__otherLinks{
+    @apply order-3 lg:order-none w-[45%] lg:w-auto
+}
+.footer__topBrockers{
+    @apply order-2 lg:order-none w-full md:w-[45%] lg:w-auto
+}
+.footer__topBrockers ul{
+    @apply flex gap-2 lg:block
+}
+.footer__subscribe{
+    @apply order-1 w-full  lg:order-none md:w-[45%] lg:w-auto
+}
+.footer__apps{
+    @apply w-full flex gap-4 justify-center items-center order-3 lg:w-[45%] lg:self-center xl:hidden
+}
+.footer__subscribeApps{
+    @apply hidden xl:flex gap-4 py-2
+}

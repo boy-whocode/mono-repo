@@ -1,0 +1,20 @@
+{
+ "data":[
+    {
+        "question":"What is the NiftyTrader Prime Plan?",
+        "answer":"answer for first"
+    },
+    {
+        "question":"What are the premium features included with the prime plan?",
+        "answer":"answer for second"
+    },
+    {
+        "question":"Can I try the premium features before I subscribe to the prime plan?",
+        "answer":"answer for third"
+    },
+    {
+        "question":"How do I subscribe to the prime plan?",
+        "answer":"answer for fourth"
+    }
+ ]   
+}

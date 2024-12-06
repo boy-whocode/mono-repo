@@ -1,0 +1,74 @@
+.avatar{
+    @apply w-12 h-12 rounded-full bg-[#ECF5FE] text-[#4399EB] flex items-center justify-center text-xl font-bold relative
+}
+.avatar__premium{
+    @apply absolute top-0 -translate-y-1/2
+}
+.header {
+    @apply flex justify-between items-center py-3 xl:py-4 px-3 xl:px-10;
+}
+.logoContainer{
+    @apply flex items-center gap-1.5 xl:gap-3
+}
+.logo img{
+    @apply w-[155px] xl:w-[200px]
+}
+.header__search{
+    @apply hidden lg:block
+}
+.searchbarContainer{
+    @apply bg-[#ECF5FE] text-[#999999] rounded relative
+}
+.searchbarContainer__icon{
+    @apply absolute left-0 xl:left-2 top-1/2 -translate-y-1/2
+}
+.searchbar{
+    @apply p-1 xl:p-2 pl-4 xl:pl-6 bg-[#ECF5FE] text-[#999999] rounded w-full
+}
+
+.navList{
+    @apply lg:flex xl:gap-4 items-center hidden
+}
+.navList__refer{
+    @apply flex xl:gap-1 text-[#4399EB] lg:text-sm xl:text-lg items-center
+}
+.navList__icons{
+    @apply flex gap-2 items-center text-2xl
+}
+.hamburger{
+    @apply lg:hidden text-2xl text-[#4399EB]
+}
+.submenu{
+    @apply relative
+}
+.submenu__title{
+    @apply py-1 lg:py-2 px-1 xl:px-4 flex items-center cursor-pointer gap-2 w-full
+}
+.submenu__title h1{
+    @apply flex-1
+}
+.subemenu__options{
+    @apply lg:absolute top-full py-1 lg:py-2 bg-white left-0 overflow-hidden px-4 w-full ease-linear duration-300 z-[999] min-w-max space-y-3
+}
+.subemenu__options--collapse{
+    @apply h-0 py-0
+}
+
+.mobileMenu{
+    @apply fixed top-0 left-0 w-screen h-screen box-border bg-black bg-opacity-15 z-[999] overflow-hidden ease-in-out duration-300 text-nowrap lg:hidden
+}
+.mobileMenu--collapse{
+    @apply w-0;
+}
+.mobileMenu__inner{
+    @apply h-full bg-white p-4 max-w-[300px] w-[79%]
+}
+.mobileMenu__closeBtn{
+    @apply absolute right-2 top-2 text-white text-2xl text-center bg-black rounded-full
+}
+.mobileMenuContent__userDetails{
+    @apply flex justify-between
+}
+.mobileMenuContent__search{
+    @apply py-2
+}

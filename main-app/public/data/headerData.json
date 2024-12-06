@@ -1,0 +1,70 @@
+{
+    "data":{
+        "menu":[
+            {
+                "title":"Bactesting",
+                "as":"submenu",
+                "submenu":[
+                    {
+                        "title":"Option 1",
+                        "as":"link",
+                        "href":"/"
+                    },
+                    {
+                        "title":"Option 2",
+                        "as":"link",
+                        "href":"/"
+                    }
+                ]
+            },
+            {
+                "title":"Screener",
+                "as":"submenu",
+                "submenu":[
+                    {
+                        "title":"Option 1",
+                        "as":"link",
+                        "href":"/"
+                    },
+                    {
+                        "title":"Option 2",
+                        "as":"link",
+                        "href":"/"
+                    }
+                ]
+            },
+            {
+                "title":"Options",
+                "as":"submenu",
+                "submenu":[
+                    {
+                        "title":"Option 1",
+                        "as":"link",
+                        "href":"/"
+                    },
+                    {
+                        "title":"Option 2",
+                        "as":"link",
+                        "href":"/"
+                    }
+                ]
+            },
+            {
+                "title":"Resources",
+                "as":"submenu",
+                "submenu":[
+                    {
+                        "title":"Option 1",
+                        "as":"link",
+                        "href":"/"
+                    },
+                    {
+                        "title":"Option 2",
+                        "as":"link",
+                        "href":"/"
+                    }
+                ]
+            }
+        ]
+    }
+}
